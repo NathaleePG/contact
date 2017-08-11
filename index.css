@@ -319,6 +319,10 @@ li span{
     }
 }
 
+#centered p{
+    font-weight:bold;
+}
+
 @media screen and (max-width:703px) {
     #containerSec #fixed > ul {
         display:none;
