@@ -22,6 +22,21 @@ $(function() {
         }
     });
 
+    var $icons = $(".icons li");
+
+    $icons.on("mouseover", function(){
+        $(this).stop(true);
+        $(this).animate({
+            opacity:1
+        }, 300);
+    });
+
+    $icons.mouseleave(function(){
+        $(this).animate({
+            opacity:0.6
+        }, 200);
+    });
+
     /*
     $nav.on("mouseover", function(){
         var i = $(this).index();
